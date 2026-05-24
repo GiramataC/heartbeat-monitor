@@ -232,9 +232,3 @@ GROUP BY customer_id;
 
 ---
 
-## Extending the Project
-
-- **Grafana** – Add a Grafana service to `docker-compose.yml` pointing at the PostgreSQL datasource for production-grade dashboards.
-- **Multiple Kafka partitions** – Set `KAFKA_NUM_PARTITIONS=5` and run multiple consumer instances to scale horizontally.
-- **Alert notifications** – Add a webhook call in `kafka_consumer.py` when `status == "CRITICAL"` to send an email or Slack message.
-- **TimescaleDB** – Swap standard PostgreSQL for the TimescaleDB image to get automatic time-series partitioning and compression.
