@@ -1,7 +1,7 @@
 """
 dashboard.py
 ------------
-Optional real-time Streamlit dashboard for the Heart Beat Monitoring System.
+Real-time Streamlit dashboard for the Heart Beat Monitoring System.
 
 Requirements:
     pip install streamlit psycopg2-binary plotly pandas
