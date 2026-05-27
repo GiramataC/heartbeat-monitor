@@ -98,7 +98,7 @@ docker-compose ps
 |---------|-----|-------------|
 | Kafka UI | http://localhost:8080 | – |
 | pgAdmin | http://localhost:5050 | admin@heartbeat.local / admin |
-| PostgreSQL | localhost:5432 | heartbeat_user / heartbeat_pass |
+| PostgreSQL | localhost:5434 | heartbeat_user / heartbeat_pass |
 
 ### 3 – Run the producer (Terminal 1)
 
